@@ -1,0 +1,302 @@
+{
+  "Name": "openseaGetListings",
+  "Tracks": [
+    {
+      "Request": {
+        "Method": "GET",
+        "URL": {
+          "Scheme": "https",
+          "Opaque": "",
+          "User": null,
+          "Host": "api.opensea.io",
+          "Path": "/api/v1/asset/0x2d0d57d004f82e9f4471caa8b9f8b1965a814154/2809/listings",
+          "RawPath": "",
+          "OmitHost": false,
+          "ForceQuery": false,
+          "RawQuery": "",
+          "Fragment": "",
+          "RawFragment": ""
+        },
+        "Header": {
+          "Accept": [
+            "application/json"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "X-Api-Key": [
+            "08826c83664f4c5585bc5b452abe7d9e"
+          ]
+        },
+        "Body": null
+      },
+      "Response": {
+        "Status": "200 OK",
+        "StatusCode": 200,
+        "Proto": "HTTP/2.0",
+        "ProtoMajor": 2,
+        "ProtoMinor": 0,
+        "Header": {
+          "Accept-Ranges": [
+            "bytes"
+          ],
+          "Age": [
+            "8"
+          ],
+          "Allow": [
+            "GET, OPTIONS"
+          ],
+          "Cf-Cache-Status": [
+            "HIT"
+          ],
+          "Cf-Ray": [
+            "762e85bbe847a210-YYZ"
+          ],
+          "Content-Length": [
+            "23"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Cross-Origin-Opener-Policy": [
+            "same-origin"
+          ],
+          "Date": [
+            "Mon, 31 Oct 2022 18:41:00 GMT"
+          ],
+          "Last-Modified": [
+            "Mon, 31 Oct 2022 18:40:52 GMT"
+          ],
+          "Referrer-Policy": [
+            "same-origin"
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Server-Timing": [
+            "cf-q-config;dur=7.9999999798019e-06"
+          ],
+          "Set-Cookie": [
+            "__cf_bm=DliutrRcsjzYkYRSrBtmwyp1MLU8n2NRrpCxybH5QPk-1667241660-0-AQg5xbDU85z56osIcnemSEu48uNnD6iVHBSmU0qM7GJk7Ad7Ndj3ToJsOViOJ+YRSMtU7sSGMYQnKVcEOLz9LUU=; path=/; expires=Mon, 31-Oct-22 19:11:00 GMT; domain=.opensea.io; HttpOnly; Secure; SameSite=None"
+          ],
+          "Strict-Transport-Security": [
+            "max-age=15552000; includeSubDomains; preload"
+          ],
+          "Vary": [
+            "Accept, Origin, Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Frame-Options": [
+            "DENY"
+          ],
+          "X-Trace-Id": [
+            "1426935569935060486"
+          ]
+        },
+        "Body": "eyJzZWFwb3J0X2xpc3RpbmdzIjpbXX0=",
+        "ContentLength": 23,
+        "TransferEncoding": null,
+        "Trailer": null,
+        "TLS": null
+      },
+      "ErrType": "",
+      "ErrMsg": ""
+    },
+    {
+      "Request": {
+        "Method": "GET",
+        "URL": {
+          "Scheme": "https",
+          "Opaque": "",
+          "User": null,
+          "Host": "api.opensea.io",
+          "Path": "/api/v1/collection/doodles-official//stats",
+          "RawPath": "",
+          "OmitHost": false,
+          "ForceQuery": false,
+          "RawQuery": "",
+          "Fragment": "",
+          "RawFragment": ""
+        },
+        "Header": {
+          "Accept": [
+            "application/json"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "X-Api-Key": [
+            "08826c83664f4c5585bc5b452abe7d9e"
+          ]
+        },
+        "Body": null
+      },
+      "Response": {
+        "Status": "200 OK",
+        "StatusCode": 200,
+        "Proto": "HTTP/2.0",
+        "ProtoMajor": 2,
+        "ProtoMinor": 0,
+        "Header": {
+          "Allow": [
+            "OPTIONS, GET"
+          ],
+          "Cf-Cache-Status": [
+            "MISS"
+          ],
+          "Cf-Ray": [
+            "762e866a9ac6a223-YYZ"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Cross-Origin-Opener-Policy": [
+            "same-origin"
+          ],
+          "Date": [
+            "Mon, 31 Oct 2022 18:41:28 GMT"
+          ],
+          "Last-Modified": [
+            "Mon, 31 Oct 2022 18:41:28 GMT"
+          ],
+          "Referrer-Policy": [
+            "same-origin"
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Server-Timing": [
+            "cf-q-config;dur=9.0000003183377e-06"
+          ],
+          "Set-Cookie": [
+            "__cf_bm=JF7R_0jdumOr7GibeIxzHnTGmln8QVh_XYyJ4fuo0DQ-1667241688-0-Aa8BDyz02ebJfeVYuJrxYoNn4gZ4PBordXj6+uzwfxUY75nv/AYsuGLnEs2YH0Ya5ONeT07/B0zQHML+oTYfw1s=; path=/; expires=Mon, 31-Oct-22 19:11:28 GMT; domain=.opensea.io; HttpOnly; Secure; SameSite=None"
+          ],
+          "Strict-Transport-Security": [
+            "max-age=15552000; includeSubDomains; preload"
+          ],
+          "Vary": [
+            "Accept, Origin, Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Frame-Options": [
+            "DENY"
+          ],
+          "X-Trace-Id": [
+            "17415649261847368374"
+          ]
+        },
+        "Body": "eyJzdGF0cyI6eyJvbmVfaG91cl92b2x1bWUiOjAuMCwib25lX2hvdXJfY2hhbmdlIjowLjAsIm9uZV9ob3VyX3NhbGVzIjowLjAsIm9uZV9ob3VyX3NhbGVzX2NoYW5nZSI6MC4wLCJvbmVfaG91cl9hdmVyYWdlX3ByaWNlIjowLjAsIm9uZV9ob3VyX2RpZmZlcmVuY2UiOjAuMCwic2l4X2hvdXJfdm9sdW1lIjowLjAsInNpeF9ob3VyX2NoYW5nZSI6LTEuMCwic2l4X2hvdXJfc2FsZXMiOjAuMCwic2l4X2hvdXJfc2FsZXNfY2hhbmdlIjowLjAsInNpeF9ob3VyX2F2ZXJhZ2VfcHJpY2UiOjAuMCwic2l4X2hvdXJfZGlmZmVyZW5jZSI6LTE0LjA1LCJvbmVfZGF5X3ZvbHVtZSI6MjAuNDUwMzAwMDAwMDAwMDAyLCJvbmVfZGF5X2NoYW5nZSI6LTAuNTM4MzY3OTQ1ODIzOTI3Nywib25lX2RheV9zYWxlcyI6My4wLCJvbmVfZGF5X3NhbGVzX2NoYW5nZSI6LTAuNSwib25lX2RheV9hdmVyYWdlX3ByaWNlIjo2LjgxNjc2NjY2NjY2NjY2Nywib25lX2RheV9kaWZmZXJlbmNlIjotMjMuODQ5Njk5OTk5OTk5OTk1LCJzZXZlbl9kYXlfdm9sdW1lIjozMzYuODU3MTE5LCJzZXZlbl9kYXlfY2hhbmdlIjowLjQ2MDM4NzA4NjM1MTQ5ODYsInNldmVuX2RheV9zYWxlcyI6NDUuMCwic2V2ZW5fZGF5X2F2ZXJhZ2VfcHJpY2UiOjcuNDg1NzEzNzU1NTU1NTU1NSwic2V2ZW5fZGF5X2RpZmZlcmVuY2UiOjEwNi4xOTQyMiwidGhpcnR5X2RheV92b2x1bWUiOjEzOTIuNjcxMTcyNDQ0NDQ1NiwidGhpcnR5X2RheV9jaGFuZ2UiOi0wLjM5ODIyNTMyMTg5NzQ3NTE3LCJ0aGlydHlfZGF5X3NhbGVzIjoxNjcuMCwidGhpcnR5X2RheV9hdmVyYWdlX3ByaWNlIjo4LjMzOTM0ODMzNzk5MDY5MywidGhpcnR5X2RheV9kaWZmZXJlbmNlIjotOTIxLjYwMjI5NzU0NTU1NDYsInRvdGFsX3ZvbHVtZSI6MTUwNzY0LjE5ODI1ODIxOTQ2LCJ0b3RhbF9zYWxlcyI6MjQxMTguMCwidG90YWxfc3VwcGx5IjoxMDAwMC4wLCJjb3VudCI6MTAwMDAuMCwibnVtX293bmVycyI6NTQwNCwiYXZlcmFnZV9wcmljZSI6Ni4yNTExMDY5ODQ3NTA3ODYsIm51bV9yZXBvcnRzIjoxLCJtYXJrZXRfY2FwIjo3NDg1Ny4xMzc1NTU1NTU1NiwiZmxvb3JfcHJpY2UiOjYuOTl9fQ==",
+        "ContentLength": -1,
+        "TransferEncoding": null,
+        "Trailer": null,
+        "TLS": null
+      },
+      "ErrType": "",
+      "ErrMsg": ""
+    },
+    {
+      "Request": {
+        "Method": "GET",
+        "URL": {
+          "Scheme": "https",
+          "Opaque": "",
+          "User": null,
+          "Host": "api.opensea.io",
+          "Path": "/api/v1/asset_contract/0x631998e91476DA5B870D741192fc5Cbc55F5a52E",
+          "RawPath": "",
+          "OmitHost": false,
+          "ForceQuery": false,
+          "RawQuery": "",
+          "Fragment": "",
+          "RawFragment": ""
+        },
+        "Header": {
+          "Accept": [
+            "application/json"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "X-Api-Key": [
+            "08826c83664f4c5585bc5b452abe7d9e"
+          ]
+        },
+        "Body": null
+      },
+      "Response": {
+        "Status": "200 OK",
+        "StatusCode": 200,
+        "Proto": "HTTP/2.0",
+        "ProtoMajor": 2,
+        "ProtoMinor": 0,
+        "Header": {
+          "Allow": [
+            "GET, OPTIONS"
+          ],
+          "Cache-Control": [
+            "max-age=300"
+          ],
+          "Cf-Cache-Status": [
+            "MISS"
+          ],
+          "Cf-Ray": [
+            "762e866c2eaca223-YYZ"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Cross-Origin-Opener-Policy": [
+            "same-origin"
+          ],
+          "Date": [
+            "Mon, 31 Oct 2022 18:41:29 GMT"
+          ],
+          "Expires": [
+            "Mon, 31 Oct 2022 18:46:29 GMT"
+          ],
+          "Last-Modified": [
+            "Mon, 31 Oct 2022 18:41:29 GMT"
+          ],
+          "Referrer-Policy": [
+            "same-origin"
+          ],
+          "Server": [
+            "cloudflare"
+          ],
+          "Server-Timing": [
+            "cf-q-config;dur=6.9999996412662e-06"
+          ],
+          "Set-Cookie": [
+            "__cf_bm=a9xgDCipUh_o4O7oHEKiGYL_IZjOHzLK18aRvM27JrU-1667241689-0-Af+qtWG+jqmz2fk4NCxwJCdHnflge2+R6JwhLxE4/SuZ8t32Ek0JLWduIeddKr4pMom8DWoDWimC5xFp72qhlOc=; path=/; expires=Mon, 31-Oct-22 19:11:29 GMT; domain=.opensea.io; HttpOnly; Secure; SameSite=None"
+          ],
+          "Strict-Transport-Security": [
+            "max-age=15552000; includeSubDomains; preload"
+          ],
+          "Vary": [
+            "Accept, Origin, Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Frame-Options": [
+            "DENY"
+          ],
+          "X-Trace-Id": [
+            "6622108364717878630"
+          ]
+        },
+        "Body": "eyJjb2xsZWN0aW9uIjpudWxsLCJhZGRyZXNzIjoiMHg2MzE5OThlOTE0NzZkYTViODcwZDc0MTE5MmZjNWNiYzU1ZjVhNTJlIiwiYXNzZXRfY29udHJhY3RfdHlwZSI6InVua25vd24iLCJjcmVhdGVkX2RhdGUiOiIyMDIyLTA4LTMwVDE4OjE4OjQwLjM2MTkxMyIsIm5hbWUiOiJVbmlkZW50aWZpZWQgY29udHJhY3QiLCJuZnRfdmVyc2lvbiI6bnVsbCwib3BlbnNlYV92ZXJzaW9uIjpudWxsLCJvd25lciI6bnVsbCwic2NoZW1hX25hbWUiOiJVTktOT1dOIiwic3ltYm9sIjoiIiwidG90YWxfc3VwcGx5IjpudWxsLCJkZXNjcmlwdGlvbiI6bnVsbCwiZXh0ZXJuYWxfbGluayI6bnVsbCwiaW1hZ2VfdXJsIjpudWxsLCJkZWZhdWx0X3RvX2ZpYXQiOmZhbHNlLCJkZXZfYnV5ZXJfZmVlX2Jhc2lzX3BvaW50cyI6MCwiZGV2X3NlbGxlcl9mZWVfYmFzaXNfcG9pbnRzIjowLCJvbmx5X3Byb3hpZWRfdHJhbnNmZXJzIjpmYWxzZSwib3BlbnNlYV9idXllcl9mZWVfYmFzaXNfcG9pbnRzIjowLCJvcGVuc2VhX3NlbGxlcl9mZWVfYmFzaXNfcG9pbnRzIjowLCJidXllcl9mZWVfYmFzaXNfcG9pbnRzIjowLCJzZWxsZXJfZmVlX2Jhc2lzX3BvaW50cyI6MCwicGF5b3V0X2FkZHJlc3MiOm51bGx9",
+        "ContentLength": -1,
+        "TransferEncoding": null,
+        "Trailer": null,
+        "TLS": null
+      },
+      "ErrType": "",
+      "ErrMsg": ""
+    }
+  ]
+}
